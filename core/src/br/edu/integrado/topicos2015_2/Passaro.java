@@ -41,7 +41,7 @@ public class Passaro {
         def.friction = 0.4f;
         def.restitution = 0.3f;
         BodyEditorLoader loader = new BodyEditorLoader(Gdx.files.internal("physics/bird.json"));
-        loader.attachFixture(corpo, "bird", def, 1, "bird");
+        loader.attachFixture(corpo, "bird", def, 1, "BIRD");
     }
 
     public void pular(){
